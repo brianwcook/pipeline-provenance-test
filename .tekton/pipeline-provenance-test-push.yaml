@@ -22,7 +22,7 @@ spec:
   - name: git-url
     value: '{{repo_url}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads/brianwcook-tenant/pipeline-provenance-test/pipeline-provenance-test:{{revision}}
+    value: quay.io/redhat-user-workloads-stage/brianwcook-tenant/pipeline-provenance-test/pipeline-provenance-test:{{revision}}
   - name: path-context
     value: .
   - name: revision
